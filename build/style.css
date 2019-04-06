@@ -1,0 +1,42 @@
+body {
+  background-color: #55B3D9;
+  height: 100%;
+  font-family: 'Dokdo', cursive;
+}
+
+.subtitle{
+    margin: 0;
+}
+
+.navbar {
+    background-color: #6AD9D9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#headerBox {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 15px;
+  background-color: #CDD973;
+  width: 60%;
+  font-size: 20px;
+}
+
+
+#bodyBox {
+  margin: 10px;
+}
+.gameTile {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 8px 25px;
+  border: 1px solid #f1f1f1;
+  border-radius: 3px;
+  padding: 0px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+#footerBox {
+  border: black 1px solid;
+}
