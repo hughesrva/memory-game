@@ -1,6 +1,6 @@
 {
   "name": "memory-game",
-  "homepage": "https://hughesrva.github.io/memory-game/",
+  "homepage": "https://github.com/hughesrva/memory-game/tree/master/public",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
