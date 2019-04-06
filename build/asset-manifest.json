@@ -1,11 +1,11 @@
 {
-  "main.js": "/hughesrva/memory-game/static/js/main.33a4cfa7.chunk.js",
-  "main.js.map": "/hughesrva/memory-game/static/js/main.33a4cfa7.chunk.js.map",
-  "runtime~main.js": "/hughesrva/memory-game/static/js/runtime~main.6829c0df.js",
-  "runtime~main.js.map": "/hughesrva/memory-game/static/js/runtime~main.6829c0df.js.map",
-  "static/js/2.884c28c3.chunk.js": "/hughesrva/memory-game/static/js/2.884c28c3.chunk.js",
-  "static/js/2.884c28c3.chunk.js.map": "/hughesrva/memory-game/static/js/2.884c28c3.chunk.js.map",
-  "index.html": "/hughesrva/memory-game/index.html",
-  "precache-manifest.a297a10247543f87c9d1c9ae871934ad.js": "/hughesrva/memory-game/precache-manifest.a297a10247543f87c9d1c9ae871934ad.js",
-  "service-worker.js": "/hughesrva/memory-game/service-worker.js"
+  "main.js": "/hughesrva/memory-game/tree/master/public/static/js/main.33a4cfa7.chunk.js",
+  "main.js.map": "/hughesrva/memory-game/tree/master/public/static/js/main.33a4cfa7.chunk.js.map",
+  "runtime~main.js": "/hughesrva/memory-game/tree/master/public/static/js/runtime~main.e3beffb8.js",
+  "runtime~main.js.map": "/hughesrva/memory-game/tree/master/public/static/js/runtime~main.e3beffb8.js.map",
+  "static/js/2.884c28c3.chunk.js": "/hughesrva/memory-game/tree/master/public/static/js/2.884c28c3.chunk.js",
+  "static/js/2.884c28c3.chunk.js.map": "/hughesrva/memory-game/tree/master/public/static/js/2.884c28c3.chunk.js.map",
+  "index.html": "/hughesrva/memory-game/tree/master/public/index.html",
+  "precache-manifest.5bff60a87b36f020ec39413b79eabf9d.js": "/hughesrva/memory-game/tree/master/public/precache-manifest.5bff60a87b36f020ec39413b79eabf9d.js",
+  "service-worker.js": "/hughesrva/memory-game/tree/master/public/service-worker.js"
 }

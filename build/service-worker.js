@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hughesrva/memory-game/precache-manifest.a297a10247543f87c9d1c9ae871934ad.js"
+  "/hughesrva/memory-game/tree/master/public/precache-manifest.5bff60a87b36f020ec39413b79eabf9d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hughesrva/memory-game/index.html", {
+workbox.routing.registerNavigationRoute("/hughesrva/memory-game/tree/master/public/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
