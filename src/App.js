@@ -12,6 +12,8 @@ class App extends Component {
     highScore: 0,
     clicked: []
   };
+
+  // function to reset score value and clicked array, and save high score if that's the case
   gameOver() {
     if (this.state.score > this.state.highScore) {
       this.setState({ highScore: this.state.score });
@@ -21,14 +23,23 @@ class App extends Component {
   }
 
   handleClickEvent = event => {
-    console.log("clicked");
+
+    // if tile was already clicked, runs game over function
     if (this.state.clicked.includes(event.target.dataset.id)) {
       this.gameOver();
     } else {
+      // if tile was not already clicked, increases score and adds tile's id to clicked array
       this.state.clicked.push(event.target.dataset.id);
       this.setState({ score: this.state.score + 1 });
+
+      // if user has clicked all tiles, runs game over function
+      if (this.state.score === 12) {
+        this.gameOver();
+      }
     }
     console.log(this.state.clicked);
+
+    // shuffles tiles array and re-renders based on the new state of the array
     this.shuffle(tiles);
     this.setState({ tiles });
   };
@@ -36,6 +47,7 @@ class App extends Component {
   shuffle = array => {
     array.sort(() => Math.random() - 0.5);
   };
+
   render() {
     return (
       <div>

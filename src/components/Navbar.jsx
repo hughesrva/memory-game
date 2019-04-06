@@ -1,5 +1,6 @@
 import React from "react";
 
+// "navbar" showing game title and dynamic score values
 function Navbar(props) {
   return (
     <nav className="navbar is-vcentered">

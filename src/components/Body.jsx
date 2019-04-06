@@ -1,5 +1,6 @@
 import React from "react";
 
+// game body that tiles are filled into
 function Body(props) {
   return (
     <div className="columns is-centered">
